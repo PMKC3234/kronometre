@@ -20,7 +20,7 @@ function App() {
       counter.current = counter.current + 100;
       setTime( counter.current );
     }
-  }
+  } 
 
   function handleButtonClick() {
     isStartedRef.current = !isStartedRef.current;
